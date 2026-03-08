@@ -31,4 +31,4 @@ cat > /root/.openclaw/openclaw.json << CONF
   }
 }
 CONF
-exec openclaw gateway
+exec node --max-old-space-size=400 $(which openclaw-gateway || which openclaw) gateway
