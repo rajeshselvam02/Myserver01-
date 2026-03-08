@@ -17,8 +17,10 @@ cat > /root/.openclaw/openclaw.json << CONF
     "telegram": {
       "enabled": true,
       "dmPolicy": "open",
+      "allowFrom": ["*"],
       "botToken": "$TELEGRAM_BOT_TOKEN",
-      "groupPolicy": "open"
+      "groupPolicy": "open",
+      "groupAllowFrom": ["*"]
     }
   },
   "gateway": {
