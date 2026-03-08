@@ -24,7 +24,7 @@ cat > /root/.openclaw/openclaw.json << CONF
     }
   },
   "gateway": {
-    "port": 8000,
+    "port": 18789,
     "mode": "local",
     "bind": "loopback",
     "auth": {"mode": "token", "token": "$GATEWAY_TOKEN"}
