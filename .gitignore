@@ -1,0 +1,5 @@
+openclaw.json
+openclaw-backup.json
+*.env
+.env*
+OpenClaw/
